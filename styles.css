@@ -79,6 +79,7 @@ img {
 
 .blog-display-image {
     max-width: 18em;
+    width: 100%;
     width: auto;
     height: auto;
     object-fit: cover;
@@ -86,7 +87,8 @@ img {
 }
 
 .blog-link-container {
-    width: 18em;
+    max-width: 18em;
+    width: 100%;
     height: 23em;
     object-fit: cover;
     border-radius: 1em;
@@ -97,5 +99,5 @@ img {
 .a-link {
     padding: 0.5em 0em 0em 0.5em;
     color: black;
-    font-size: 1.4em;
+    font-size: 1em;
 }
