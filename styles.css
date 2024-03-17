@@ -80,7 +80,6 @@ img {
 .blog-display-image {
     max-width: 18em;
     width: 100%;
-    width: auto;
     height: auto;
     object-fit: cover;
     border-radius: 0.9em 0.9em 0em 0em;
@@ -99,5 +98,22 @@ img {
 .a-link {
     padding: 0.5em 0em 0em 0.5em;
     color: black;
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+.index-window {
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    border: #ccc5c0;
+}
+
+@media screen and (width <= 768px) { 
+    .index-window {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        border: #ccc5c0;
+    }
+    
 }
