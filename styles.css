@@ -2,11 +2,15 @@ body {
     background-color: hsl(29, 56%, 89%);
     margin-top: 3em;
     width: 100%;
+    align-content: center;
+    margin: auto;
 }
 
 .new-main-container {
     display: flex;
-
+    align-content: center;
+    margin: auto;
+    max-width: 60em;
 }
 
 .main-container {
