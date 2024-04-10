@@ -8,10 +8,10 @@ body {
 
 .new-main-container {
     display: flex;
-    align-content: center;
     margin: auto;
-    max-width: 90em;
-    width: 80%;
+    margin-top: -100px;
+    max-width: 60em;
+    width: 100%;
 }
 
 .main-container {
@@ -33,6 +33,7 @@ body {
     width: 100%;
     padding-right: 20px;
     padding-left: 60px;
+    padding-top: 100px;
 }
 
 .left-container {
@@ -79,10 +80,13 @@ img {
     padding-right: 150px;
 }
 
-.picture {
+.nanay-picture {
+    display: block;
     position: relative;
     z-index: 2;
-    margin-left: -160px;
+    margin: auto;
+    padding-left: 300px;
+    margin-bottom: -300px;
 }
 
 .blog-display {
@@ -163,6 +167,19 @@ img {
         align-items: center;
         padding-top: 5px;
     }
+
+    .new-main-container {
+        display: flex; 
+    }
+
+    .nanay-picture {
+        margin: 0px;
+        padding: 0px;
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+    }
 }
+
 
 
