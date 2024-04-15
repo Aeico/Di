@@ -11,7 +11,6 @@ body {
     margin: auto;
     margin-top: -100px;
     max-width: 60em;
-    width: 100%;
 }
 
 .main-container {
@@ -30,16 +29,14 @@ body {
 }
 
 .half-container {
-    width: 100%;
     padding-right: 20px;
     padding-left: 60px;
-    padding-top: 100px;
+    padding-top: 400px;
 }
 
 .left-container {
     padding-right: 20px;
     padding-left: 20px;
-    width: 100%;
     background-color: #f8f7f2;
 }
 
@@ -77,7 +74,7 @@ img {
 
 .abstract {
     font-size: 2em;
-    padding-right: 150px;
+
 }
 
 .nanay-picture {
@@ -136,6 +133,11 @@ img {
     flex-direction: row;
 }
 
+.eighteenth-box {
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+}
+
 @media screen and (width <= 850px) { 
     .index-window {
         display: flex; 
@@ -161,6 +163,7 @@ img {
         display: block;
         margin: auto;
     }
+
     .window-rescale {
         display: flex; 
         flex-direction: column;
@@ -170,6 +173,8 @@ img {
 
     .new-main-container {
         display: flex; 
+        flex-flow: column;
+        padding-right: 0px;
     }
 
     .nanay-picture {
@@ -178,6 +183,35 @@ img {
         margin: auto;
         width: 100%;
         max-width: 100%;
+    }
+
+    .left-container {
+        padding: 10px;
+        padding-top: 50px;
+        margin: 0px;
+        position: relative;
+    }
+
+    .half-container {
+        padding: 5px;
+        position: relative;
+    }
+
+    .nanay-title {
+        font-size: 4em;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .abstract {
+        padding-right: 0px; 
+        text-align: center;
+    }
+
+    .eighteenth-box {
+        display: block;
     }
 }
 
