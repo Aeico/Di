@@ -117,8 +117,10 @@ img {
 
 .a-link {
     padding: 0.5em 0em 0em 0.5em;
+    text-indent:-0.5em;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 .index-window {
