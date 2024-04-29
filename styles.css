@@ -46,6 +46,7 @@ body {
 }
 
 p {
+    padding-top: 2px;
     text-indent: 1em;
     font-size: 1.3em;
     opacity: 1;
@@ -199,6 +200,7 @@ img {
 
     .nanay-title {
         font-size: 4em;
+        padding-bottom: 5px;
         align-items: center;
         align-content: center;
         text-align: center;
