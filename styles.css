@@ -85,15 +85,16 @@ h1 {
 
 .welcome-link {
     width: 33.3334%;
-    background-color: #F9E2E2;
+    background-color: #ffcdcd;
     text-align: center;
     padding: 10px;
-    border: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     border-radius: 1px;
 }
 
 .welcome-link:hover {
-    background-color: #c1b2b2;
+    background-color: #F9E2E2;
 }
 
 h2 {
