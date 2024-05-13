@@ -6,6 +6,19 @@ body {
     margin: auto;
 }
 
+.back-sticky {
+    z-index: 10;
+    right: 0;
+    color: black;
+    position: sticky;
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+    background: white;
+    width: 100%;
+    display: block;
+}
+
 .new-main-container {
     display: flex;
     margin: auto;
